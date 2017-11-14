@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+
+}
+.navbar-default{
+	background: transparent;
+	border: none;
+}
+.navbar-nav>li>a{
+	padding-bottom: 5px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: black;
+	font-weight: bold;
+}
+.navbar-default .navbar-brand{
+	color: black;
+	font-size: 2em;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: black;
+	border-bottom: 4px solid black;
+	background: transparent;
+	padding-left: 5px;
+}
+.banner1 img {
+	margin-left: 17px;
+	height: 95%;
+	width: 93%;
+}
+h1,h2,h3,h4{
+	font-weight: bold;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#sec2 img{
+	float: right;
+}
+.txth{
+	float: right;
+}
+.fbox{
+	background-color: #F6F6F6;
+	margin-top: 95px;
+	
+	margin-right: 10px;
+	width: 94%;
+	height: 120px;
+	margin-left: 1%;
+}
+.txt{
+	margin-top: 50px;
+	padding-right: 2%;
+
+}
+
+#fbox1{
+	background: linear-gradient(to left,#F6F6F6,rgba(255,255,255,0.0));
+	height: 200px;width: 400px;
+	transform: rotate(69deg);
+	z-index: -111;
+}
+.fh{
+	margin-left: 55px;
+	font-size: 5em;
+	position: relative;
+	top:-2.41em;
+
+}
+@media screen and (max-width: 480px) {
+	.fh{
+	font-size: 3em;
+	}
+}
+.btn{
+	margin-top: -18%;
+	margin-left: 43%;
+	font-weight: bold;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	padding: 08px 29px;
+	color: black;
+}
+#txth1 h1{
+	font-size: 3em;
+	margin-top: -05px;
+}
+#txth1{
+	margin-top: -22px;
+}
+.fbox3{
+	background-color: #F6F6F6;
+	height: 400px;
+	margin-top: 60px;
+	margin-right:90px; 
+	
+	width: 95%;
+}
+.text2 p{
+	margin-right: -50px;
+
+}
+.fa-square{
+  background-color: #3E5A96;
+}
+#fa1 {
+	background-color: #57C0F5;
+}
+#fa2 {
+	background-color: #E92B0C;
+}
+#fa3 {
+	background-color: #F96EA5;
+}
+#fa4 {
+	background-color: #3780A4;
+}
+@media screen and (max-width: 580px){
+	.text2 .fbox3 {
+		background-color: blue;
+	}
+}
