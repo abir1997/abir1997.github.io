@@ -131,6 +131,6 @@ a{
 		padding-right: 15%;
 	}
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     #noBr br { content: ' '; }
 }
