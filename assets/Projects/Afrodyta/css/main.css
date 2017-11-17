@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+html{
+	overflow-x: hidden;
+}
 body{
 	background-color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
@@ -125,7 +127,6 @@ a{
 }
 @media screen and (max-width: 480px){
 	.text2 {
-		background-color: blue;
 		padding-left: 5%;
 		padding-right: 15%;
 	}
