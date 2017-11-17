@@ -123,8 +123,13 @@ a{
 #fa4 {
 	background-color: #3780A4;
 }
-@media screen and (max-width: 580px){
-	.text2 .fbox3 {
+@media screen and (max-width: 480px){
+	.text2 {
 		background-color: blue;
+		padding-left: 5%;
+		padding-right: 15%;
 	}
+}
+@media (max-width: 480px) {
+    #noBr br { content: ' '; }
 }
